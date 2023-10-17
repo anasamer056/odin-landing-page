@@ -56,6 +56,11 @@ body {
     font-size: 20px;
     font-weight: 900;
     margin-right: 230px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: var(--main-color);
 }
 
 .header-buttons {
@@ -67,9 +72,13 @@ body {
     
 }
 
-.header-buttons a {
+.header a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.header-buttons a:hover {
+    color: var(--main-color);
 }
 
 /* Hero */
@@ -92,6 +101,9 @@ body {
 
 .hero h2 {
     margin: 5px 0;
+}
+h2.main {
+    color: var(--main-color);
 }
 
 .hero img {
