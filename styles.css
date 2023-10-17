@@ -7,7 +7,8 @@
 
 :root {
     --section-padding: 150px;
-    --dark-bg: #1F2937;
+    --dark-bg: rgb(31, 41, 55);
+    --semi-transparent-bg: rgba(6, 20, 41, 0.9);
     --darker-bg: #161924;
     --section-max-width: 800px;
     --main-color: #f03d5f;
@@ -16,6 +17,10 @@
 
 h2 {
     font-size: 35px;
+}
+h3 {
+    font-weight: 600;
+    margin: 0;
 }
 
 button.main {
@@ -37,7 +42,10 @@ body {
 /* Header */
 .header {
     display: flex;
-    background-color: var(--darker-bg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--semi-transparent-bg);
     color: #F9FAF8;
     padding: 16px 0;
     justify-content: center;
@@ -53,6 +61,7 @@ body {
 
 
 .logo {
+    
     font-size: 20px;
     font-weight: 900;
     margin-right: 230px;
@@ -88,8 +97,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0px var(--section-padding);
-    height: 425px;
-    background-color: var(--dark-bg);
+    height: 500px;
+    background: linear-gradient(135deg, var(--dark-bg) 20%, rgba(99,48,78,1) 100%);
 }
 
 .hero .container {
@@ -118,4 +127,31 @@ h2.main {
 .hero p {
     color: #E5E7EB;
     font-size: 14px;
+}
+
+/* Features */
+.features {
+    color: var(--main-color-hover);
+}
+.features p {
+    color: black;
+}
+
+.features .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.features .item {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    
 }
