@@ -6,7 +6,7 @@
 }
 
 :root {
-    --section-padding: 150px;
+    --section-padding: 130px;
     --dark-bg: rgb(31, 41, 55);
     --semi-transparent-bg: rgba(6, 20, 41, 0.9);
     --darker-bg: #161924;
@@ -20,19 +20,23 @@ h2 {
 }
 h3 {
     font-weight: 600;
-    margin: 0;
 }
+
 
 button.main {
     background-color: var(--main-color);
     color: white;
-    padding: 10px;
+    padding: 10px 30px;
     border: 0px;
     border-radius: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
 
 }
 button.main:hover {
     background-color: var(--main-color-hover);
+    transition: 0.4s;
 }
 
 body {
@@ -45,6 +49,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
     background-color: var(--semi-transparent-bg);
     color: #F9FAF8;
     padding: 16px 0;
@@ -70,6 +75,7 @@ body {
 
 .logo:hover {
     color: var(--main-color);
+    transition: 0.4s;
 }
 
 .header-buttons {
@@ -78,7 +84,6 @@ body {
     margin: 0;
     padding: 0;
     gap: 16px;
-    
 }
 
 .header a {
@@ -88,6 +93,7 @@ body {
 
 .header-buttons a:hover {
     color: var(--main-color);
+    transition: 0.4s;
 }
 
 /* Hero */
@@ -132,9 +138,18 @@ h2.main {
 /* Features */
 .features {
     color: var(--main-color-hover);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
 }
 .features p {
     color: black;
+    margin: 10px 0;
+}
+
+.features h3 {
+    margin: 5px 0;
 }
 
 .features .title {
@@ -146,7 +161,11 @@ h2.main {
 .features .container {
     display: flex;
     justify-content: center;
+    align-items: baseline;
     text-align: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 0px var(--section-padding);
 }
 
 .features .item {
