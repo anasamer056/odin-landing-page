@@ -5,6 +5,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+
 :root {
     --section-padding: 130px;
     --dark-bg: rgb(31, 41, 55);
@@ -122,9 +123,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px var(--section-padding);
-    height: 500px;
+    padding: 60px var(--section-padding);
     background: linear-gradient(135deg, var(--dark-bg) 20%, rgba(99,48,78,1) 100%);
+    
 }
 
 .hero .container {
@@ -132,6 +133,8 @@ body {
     align-items: center;
     gap: 30px;
     max-width: var(--section-max-width);
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hero h2 {
@@ -149,6 +152,7 @@ h2.main {
 .hero .text {
     flex: 1 1 auto;
     min-width: 280px;
+    max-width: 400px;
 }
 .hero p {
     color: #E5E7EB;
