@@ -4,7 +4,10 @@ This is the first complete project using HTML and CSS in Foundations level of Th
 ### Live Preview 
 TODO
 
-### Credits
-Hero image:
+### Attributions
 
-Image by <a href="https://www.freepik.com/free-vector/gradient-devops-illustration_25561384.htm#query=open-source&position=0&from_view=search&track=sph">Freepik</a> 
+##### Illustrations
+4- https://www.vintandyork.com/blogs/content/best-mens-eyeglasses
+
+##### Testimonials 
+1- Photo by Ivan Babydov from Pexels: https://www.pexels.com/photo/positive-young-bearded-man-in-eyeglasses-7787871/
